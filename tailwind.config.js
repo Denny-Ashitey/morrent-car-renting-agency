@@ -8,7 +8,12 @@ export default {
     fontFamily: {
       sans: ['Plus Jakarta Sans', 'sans-serif']
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'car-pattern': "url(/src/assets/BG.png)",
+        'dark-car-pattern': "url(/src/assets/dark-car.png)"
+      }
+    },
   },
   plugins: [],
 }

@@ -11,9 +11,9 @@ export default function Main() {
             <CarCardDark heading="Easy way to rent a car at a low price" text="Providing cheap car rental services and safe and comfortable facilities." carImageSrc="dark-car-pattern"/> 
         </div>
         <div className="flex items-center justify-between">
-            <Schedule text="Pick-Up"/>
-            <img src="/src/assets/Switch.png" alt="switch" />
-            <Schedule text="Drop-Off"/>
+            <Schedule text="Pick-Up" image="/src/assets/mark-deep.png"/>
+            <img src="/src/assets/Switch.png" alt="switch"/>
+            <Schedule text="Drop-Off" image="/src/assets/mark-light.png"/>
         </div>
     </main>
     )

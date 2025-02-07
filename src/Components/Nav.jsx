@@ -2,7 +2,7 @@ import Search from "./Search"
 
 export default function Nav() {
     return (
-        <nav className="py-[40px] px-[60px] flex items-center justify-between bg-white">
+        <nav className="py-[40px] px-[300px] flex items-center justify-between bg-white">
             <div className="flex items-center gap-16">
                 <h1 className="text-3xl font-bold text-[#3563E9]">MORRENT</h1>
                 <Search />

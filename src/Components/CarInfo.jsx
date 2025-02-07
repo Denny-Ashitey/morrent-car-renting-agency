@@ -1,19 +1,19 @@
 import Button from "./Button";
 
-export default function({carType,carName, imageLink, price, fuelCapacity, steeringType, seats}) {
+export default function({carType,carName, like, price, fuelCapacity, steeringType, seats, carImageLink}) {
     return (
-            <div className=" max-w-[320px] w-full shadow-md p-[24px] bg-white rounded-lg flex flex-col gap-[24px]">
+            <div className="min-w-[320px] max-w-[350px] w-full shadow-md p-[24px] bg-white rounded-lg flex flex-col gap-[24px] h-full flex-1">
                 <div className="flex items-center gap-2 w-full justify-between">
                     <div>
                     <h4 className="font-bold text-[20px] text-[#1A202C]">{carName}</h4>
                     <p className="text-[#90A3BF]">{carType}</p>
                     </div>
                     <div>
-                        <img className="cursor-pointer" src={`${imageLink}`} />
+                        <img className="cursor-pointer" src={`${like}`} />
                     </div>
                 </div>
                 <div className="mb-[64px]">
-                    <img className="mt-[40px]" src="/src/assets/koenigsegg.png" alt="koenigsegg" />
+                    <img className="mt-[40px]" src={carImageLink} alt="koenigsegg" />
                 </div>
                 <div className="flex items-center w-full justify-between">
                     <span className="flex items-center gap-[6px]">
